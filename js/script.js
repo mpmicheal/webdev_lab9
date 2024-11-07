@@ -7,14 +7,11 @@ function init(){
     alert("Micheal Okiror: " + textbox.value);
   }
   
+  button.addEventListener('click', showMeText);
+  }
+
   
   
  
-
-
-
-
-
-
 
 window.addEventListener('load', init);
